@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henkilökunta | Luontokampaamo SilkLine</title>
+    <meta name="description" content="Tutustu Luontokampaamo SilkLinen ammattitaitoiseen henkilökuntaan. Koulutetut kampaajat Vaasassa.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-leaf">🌿</span>
+                <span class="logo-text">SilkLine</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Avaa valikko" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Etusivu</a></li>
+                <li><a href="palvelut.html" class="nav-link">Palvelut</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link active">Lisätieto <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="meista.html">Meistä</a></li>
+                        <li><a href="henkilokunta.html">Henkilökunta</a></li>
+                        <li><a href="tekniset-sarjat.html">Tekniset Sarjat</a></li>
+                        <li><a href="tuotevalikoima.html">Tuotevalikoima</a></li>
+                    </ul>
+                </li>
+                <li><a href="yhteystiedot.html" class="nav-link">Yhteystiedot</a></li>
+                <li><a href="yhteystiedot.html#varaa" class="btn btn-primary nav-cta">Varaa aika</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header page-header-small">
+        <div class="container">
+            <span class="page-tag">Tiimimme</span>
+            <h1 class="page-title">Henkilökunta</h1>
+        </div>
+    </header>
+
+    <!-- Staff Section -->
+    <section class="section section-staff">
+        <div class="container">
+            <div class="staff-grid">
+                <article class="staff-card" data-animate="fade-up">
+                    <div class="staff-image">
+                        <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80" 
+                             alt="Annikka Mansnerus" loading="lazy">
+                    </div>
+                    <div class="staff-info">
+                        <h2>Annikka Mansnerus</h2>
+                        <p class="staff-role">Yrittäjä, Parturi-kampaaja</p>
+                        <p class="staff-bio">Kampaamoalan ammattilainen vuodesta 2009. Erikoisosaaminen: ekologiset värikäsittelyt, hiuspohjan hoidot ja allergia-asiat.</p>
+                        <div class="staff-contact">
+                            <a href="mailto:annikka.mansnerus@netikka.fi">annikka.mansnerus@netikka.fi</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Lisää henkilökuntaa tarvittaessa -->
+            </div>
+            
+            <div class="text-center mt-2">
+                <p class="text-muted">Haluatko tiimiimme? <a href="yhteystiedot.html">Ota yhteyttä</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-leaf">🌿</span>
+                        <span class="logo-text">SilkLine</span>
+                    </a>
+                    <p>Ekologinen kampaamo Vaasassa. Kauniit hiukset, puhtaat valinnat.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/kampaamosilkline/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Palvelut</h4>
+                    <ul>
+                        <li><a href="palvelut.html#leikkaukset">Hiustenleikkaukset</a></li>
+                        <li><a href="palvelut.html#varitykset">Värjäykset</a></li>
+                        <li><a href="palvelut.html#raidat">Raidat</a></li>
+                        <li><a href="palvelut.html#tutkimus">Hiuspohjatutkimus</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Yritys</h4>
+                    <ul>
+                        <li><a href="meista.html">Meistä</a></li>
+                        <li><a href="henkilokunta.html">Henkilökunta</a></li>
+                        <li><a href="tuotevalikoima.html">Tuotteet</a></li>
+                        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Yhteystiedot</h4>
+                    <p>Teirinkatu 6<br>65350 Vaasa</p>
+                    <p><a href="tel:+358400450902">040 0450902</a></p>
+                    <p><a href="mailto:annikka.mansnerus@netikka.fi">annikka.mansnerus@netikka.fi</a></p>
+                    <p class="hours">Ma–Pe 9–17<br>La sop. mukaan</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luontokampaamo SilkLine. Kaikki oikeudet pidätetään.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
